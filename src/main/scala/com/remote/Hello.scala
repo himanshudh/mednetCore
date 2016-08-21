@@ -1,8 +1,7 @@
+package com.remote
 
-import akka.actor.Actor
-import akka.actor.Actor.Receive
-import akka.actor.ActorSystem
-import akka.actor.Props
+
+import akka.actor.{Actor, Props}
 
 class SuperActor extends Actor {
   def receive = {

@@ -1,4 +1,6 @@
-import akka.actor.{Props, ActorSystem}
+package com.remote
+
+import akka.actor.{ActorSystem, Props}
 
 
 object Main extends App {
